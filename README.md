@@ -51,6 +51,8 @@ if ($isWin8Plus -and $is64Bit) {<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64"<br/>
 }<br/>
 </blockquote>
-
+<br/>
 <ul><li>Then you can check whether .NET Runtime Optimization Service high CPU usage windows 10 still appears.</li></ul>
-<br/><br/><br/><h3>Thank you for watching and good luck.</h3>
+<br/>
+<center><img src="https://i.imgur.com/6kOlV49.jpg"></center>
+<br/><br/><h3>Thank you for watching and good luck.</h3>
