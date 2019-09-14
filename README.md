@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/MiKnaJL.png">
+<img src="https://i.imgur.com/MiKnaJL.png" style="width:400px;">
 <h2>Win10 system.NET Service runtime optimization of CPU how to solve.</h2>
 
 <ul>
