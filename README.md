@@ -49,4 +49,5 @@ if ($isWin8Plus -and $is64Bit) {<br/>
 <br/>
 <ul><li>Then you can check whether .NET Runtime Optimization Service high CPU usage windows 10 still appears.</li></ul>
   <img src="https://i.imgur.com/6kOlV49.jpg">
-<h4>Thank you for watching and good luck.</h4>
+Thank you for watching and good luck.
+<h3>Info</h3>
