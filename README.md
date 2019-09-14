@@ -11,6 +11,7 @@
 <li>The cause of the CPU delay is stuck in the low priority work. Next, let's see the solution to the problem with Xiaobian!</li></ul>
 
 <h2>Solution</h2>
-<ul><li>Press Windows + Q to search for PowerShell, right-click on Windows PowerShell and select [Run as Administrator];</li>
+<ul><li>Press Windows + Q to search for "PowerShell" either right in the Start menu or by tapping the search button right next to it. Right-click on the first result which appears at the top and select the "Run as Administrator" option.</li>
+<img src="https://i.imgur.com/grV7hII.png">
 <li>Enter the following code: <a href="https://raw.githubusercontent.com/duyplus/Fix-High-CPU-Usage-by-.NET-Runtime-Optimization-Service/master/code.txt"><b>Click Here</b></a>
 </li></ul>
