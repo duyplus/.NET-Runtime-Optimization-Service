@@ -22,4 +22,33 @@
 <li>Enter the following code: <a href="https://raw.githubusercontent.com/duyplus/Fix-High-CPU-Usage-by-.NET-Runtime-Optimization-Service/master/code.txt"><b>Click Here</b></a>
 </li></ul><br/>
 <blockquote style="-webkit-text-stroke-width: 0px; background: rgb(232, 249, 244); border: 1px solid rgb(142, 227, 200); box-sizing: border-box; clear: right; color: #181818;font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 300; letter-spacing: normal; line-height: 1.6em; margin: 1.5em 0px; orphans: 2; padding: 1.6em; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">
-<strong style="box-sizing: border-box; font-weight: 500;">Note:&nbsp;</strong>The&nbsp;Code Block has a 400 KB&nbsp;limit, which is around 300,000 characters.</blockquote>
+<strong style="box-sizing: border-box; font-weight: 500;">CODE:&nbsp;</strong>
+# Script to force the .NET Framework optimization service to run at maximum speed.
+$isWin8Plus = [Environment]::OSVersion.Version -ge (new-object 'Version' 6,2)
+$dotnetDir = [environment]::GetEnvironmentVariable("windir","Machine") + "\Microsoft.NET\Framework"
+$dotnet2 = "v2.0.50727"
+$dotnet4 = "v4.0.30319"
+$dotnetVersion = if (Test-Path ($dotnetDir + "\" + $dotnet4 + "\ngen.exe")) {$dotnet4} else {$dotnet2}
+$ngen32 = $dotnetDir + "\" + $dotnetVersion +"\ngen.exe"
+$ngen64 = $dotnetDir + "64\" + $dotnetVersion +"\ngen.exe"
+$ngenArgs = " executeQueuedItems"
+$is64Bit = Test-Path $ngen64
+#32-bit NGEN -- appropriate for 32-bit and 64-bit machines
+Write-Host("Requesting 32-bit NGEN") 
+Start-Process -wait $ngen32 -ArgumentList $ngenArgs
+#64-bit NGEN -- appropriate for 64-bit machines
+if ($is64Bit) {
+    Write-Host("Requesting 64-bit NGEN") 
+    Start-Process -wait $ngen64 -ArgumentList $ngenArgs
+}
+#AutoNGEN for Windows 8+ machines
+if ($isWin8Plus) {
+    Write-Host("Requesting 32-bit AutoNGEN -- Windows 8+") 
+    schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319"
+}
+#64-bit AutoNGEN for Windows 8+ machines
+if ($isWin8Plus -and $is64Bit) {
+    Write-Host("Requesting 64-bit AutoNGEN -- Windows 8+") 
+    schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64"
+}
+</blockquote>
