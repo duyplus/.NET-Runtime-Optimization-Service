@@ -51,3 +51,7 @@ if ($isWin8Plus -and $is64Bit) {<br/>
   <img src="https://i.imgur.com/6kOlV49.jpg">
 Thank you for watching and good luck.
 <h3>Info</h3>
+<ul>
+  <li>Facebook: <a href="https://www.facebook.com/duyplusx">@duyplusx</a></li>
+  <li>Instagram: <a href="https://www.instagram.com/nghdyyy">@nghdyyy</a></li>
+  <li>Twitter: <a href="https://twitter.com/duyplusdz">@duyplusdz</a></li>
