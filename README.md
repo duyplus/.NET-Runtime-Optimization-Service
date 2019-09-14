@@ -20,7 +20,6 @@
   <center><img src="https://i.imgur.com/grV7hII.png"></center>
 <br/>
 <li>Enter the following code: <a href="https://raw.githubusercontent.com/duyplus/Fix-High-CPU-Usage-by-.NET-Runtime-Optimization-Service/master/code.txt"><b>Click Here</b></a>
-</li></ul>
-<div style="box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px; box-sizing: inherit; margin-bottom: 10px; padding: 20px; box-sizing: inherit; line-height: 1.6em; padding: 15px;">
-<span style="box-sizing: inherit; font-weight: 700; line-height: 2.0em;"><span style="color: black;">&nbsp;Code:</span></span><br />
-<span style="color: #222222;">Địa chỉ email của bạn được bảo mật.</span><br/>
+</li></ul><br/>
+<blockquote style="-webkit-text-stroke-width: 0px; background: rgb(232, 249, 244); border: 1px solid rgb(142, 227, 200); box-sizing: border-box; clear: right; color: #181818;font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 300; letter-spacing: normal; line-height: 1.6em; margin: 1.5em 0px; orphans: 2; padding: 1.6em; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">
+<strong style="box-sizing: border-box; font-weight: 500;">Note:&nbsp;</strong>The&nbsp;Code Block has a 400 KB&nbsp;limit, which is around 300,000 characters.</blockquote>
