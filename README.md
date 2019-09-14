@@ -15,7 +15,7 @@
 
 <h2>Solution</h2>
 <ul>
-  <li>Press Windows + Q to search for "PowerShell" either right in the Start menu or by tapping the search button right next to it. Right-click on the first result which appears at the top and select the "Run as Administrator" option.</li>
+  <li>Press <b>Windows + Q</b> to search for "<b>PowerShell</b>" either right in the Start menu or by tapping the search button right next to it. Right-click on the first result which appears at the top and select the "<b>Run as Administrator</b>" option.</li>
 <br/>
   <center><img src="https://i.imgur.com/grV7hII.png"></center>
 <br/><br/>
@@ -55,4 +55,4 @@ if ($isWin8Plus -and $is64Bit) {<br/>
 <ul><li>Then you can check whether .NET Runtime Optimization Service high CPU usage windows 10 still appears.</li></ul>
 <br/>
 <center><img src="https://i.imgur.com/6kOlV49.jpg"></center>
-<br/><br/><h3>Thank you for watching and good luck.</h3>
+<br/><h4>Thank you for watching and good luck.</h4>
