@@ -1,4 +1,4 @@
-In the process of using Windows 10 system, it was found that a process called .NET Runtime Optimization Service takes up high CPU usage.
+<h2>In the process of using Windows 10 system, it was found that a process called .NET Runtime Optimization Service takes up high CPU usage.</h2>
 
 
 What should I do? What is the process of the .NET runtime optimization service? In general, when you install .NET, the program will appear on the computer and .NET will cause speed of use when updated.
