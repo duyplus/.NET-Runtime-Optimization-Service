@@ -47,7 +47,7 @@ if ($isWin8Plus) {<br/>
 }<br/>
 #64-bit AutoNGEN for Windows 8+ machines<br/>
 if ($isWin8Plus -and $is64Bit) {<br/>
-    Write-Host("Requesting 64-bit AutoNGEN -- Windows 8+") <br/>
-    schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64"<br/>
+&nbsp;&nbsp;Write-Host("Requesting 64-bit AutoNGEN -- Windows 8+") <br/>
+&nbsp;&nbsp;schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64"<br/>
 }<br/>
 </blockquote>
