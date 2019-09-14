@@ -12,4 +12,4 @@ The cause of the CPU delay is stuck in the low priority work. Next, let's see th
 
 
 1. Press Windows + Q to search for PowerShell, right-click on Windows PowerShell and select [Run as Administrator];
-2. Enter the following code: https://github.com/duyplus/Fix-High-CPU-Usage-by-.NET-Runtime-Optimization-Service/blob/master/code.txt
+2. Enter the following code: https://raw.githubusercontent.com/duyplus/Fix-High-CPU-Usage-by-.NET-Runtime-Optimization-Service/master/code.txt
