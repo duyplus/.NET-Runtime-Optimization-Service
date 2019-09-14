@@ -37,17 +37,17 @@ Write-Host("Requesting 32-bit NGEN") <br/>
 Start-Process -wait $ngen32 -ArgumentList $ngenArgs<br/>
 #64-bit NGEN -- appropriate for 64-bit machines<br/>
 if ($is64Bit) {<br/>
-    Write-Host("Requesting 64-bit NGEN") <br/>
-    Start-Process -wait $ngen64 -ArgumentList $ngenArgs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Write-Host("Requesting 64-bit NGEN") <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Start-Process -wait $ngen64 -ArgumentList $ngenArgs<br/>
 }<br/>
 #AutoNGEN for Windows 8+ machines<br/>
 if ($isWin8Plus) {<br/>
-    Write-Host("Requesting 32-bit AutoNGEN -- Windows 8+") <br/>
-    schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Write-Host("Requesting 32-bit AutoNGEN -- Windows 8+") <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319"<br/>
 }<br/>
 #64-bit AutoNGEN for Windows 8+ machines<br/>
 if ($isWin8Plus -and $is64Bit) {<br/>
-&nbsp;&nbsp;Write-Host("Requesting 64-bit AutoNGEN -- Windows 8+") <br/>
-&nbsp;&nbsp;schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Write-Host("Requesting 64-bit AutoNGEN -- Windows 8+") <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;schTasks /run /Tn "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64"<br/>
 }<br/>
 </blockquote>
