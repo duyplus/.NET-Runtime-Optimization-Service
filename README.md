@@ -14,7 +14,7 @@
 <br/>
   <img src="https://i.imgur.com/grV7hII.png">
 <br/><br/>
-<li>Enter the following code: <a href="https://raw.githubusercontent.com/duyplus/Fix-High-CPU-Usage-by-.NET-Runtime-Optimization-Service/master/code.txt"><b>Click here</b></a> or copy below.
+<li>Enter the following code: <a href="https://raw.githubusercontent.com/duyplus/Fix-High-CPU-Usage-by-.NET-Runtime-Optimization-Service/master/code.txt" target="_blank"><b>Click here</b></a> or copy below.
 </li></ul><br/>
 <blockquote style="-webkit-text-stroke-width: 0px; background: rgb(232, 249, 244); border: 1px solid rgb(142, 227, 200); box-sizing: border-box; clear: right; color: #181818;font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 300; letter-spacing: normal; line-height: 1.6em; margin: 1.5em 0px; orphans: 2; padding: 1.6em; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">
 # Script to force the .NET Framework optimization service to run at maximum speed.<br/>
