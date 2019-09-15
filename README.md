@@ -1,5 +1,5 @@
 <img src="https://i.imgur.com/MiKnaJL.png">
-<h2>Win10 system.NET Service runtime optimization of CPU how to solve.</h2>
+<h2>Win10 system.NET Service Runtime Optimization of CPU how to solve.</h2>
 
 <ul>
   <li>In the process of using Windows 10 system, it was found that a process called <b>.NET Runtime Optimization Service</b> takes up high CPU usage.</li>
