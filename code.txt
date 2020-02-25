@@ -1,3 +1,4 @@
+# Script by DuyPlus
 # Script to force the .NET Framework optimization service to run at maximum speed.
 $isWin8Plus = [Environment]::OSVersion.Version -ge (new-object 'Version' 6,2)
 $dotnetDir = [environment]::GetEnvironmentVariable("windir","Machine") + "\Microsoft.NET\Framework"
